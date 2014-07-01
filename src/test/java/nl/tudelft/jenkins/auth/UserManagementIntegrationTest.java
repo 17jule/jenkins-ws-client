@@ -8,6 +8,7 @@ import nl.tudelft.jenkins.tests.integration.AbstractJenkinsIntegrationTestBase;
 import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class UserManagementIntegrationTest extends AbstractJenkinsIntegrationTestBase {
 
 	private static final String USER = "mrx";

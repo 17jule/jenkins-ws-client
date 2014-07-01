@@ -180,7 +180,7 @@ class JenkinsClientImpl implements JenkinsClient {
 
         String url = endpoint.toExternalForm() + "/securityRealm/createAccountByAdmin";
 
-        List<NameValuePair> params = new ArrayList<>();
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
         params.add(new BasicNameValuePair("username", userName));
         params.add(new BasicNameValuePair("password1", password));
         params.add(new BasicNameValuePair("password2", password));

@@ -24,7 +24,7 @@ public class JobCreationAndRemovalIntegrationTest extends AbstractJenkinsIntegra
 	private static final User USER0 = new UserImpl("person", "person@example.com");
 	private static final User USER1 = new UserImpl("other", "other@example.com");
 
-	private static final List<User> USERS = new ArrayList<>();
+	private static final List<User> USERS = new ArrayList<User>();
 
 	static {
 		USERS.add(USER0);
